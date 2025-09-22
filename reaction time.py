@@ -20,6 +20,6 @@ while True:
  check=pyautogui.pixel(x,y)
  if check==color:
   pyautogui.click(x,y)
- if keyboard.is_pressed('q'):
+ if keyboard.is_pressed('t'):
    break
  time.sleep(.01) 
